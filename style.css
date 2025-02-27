@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif; /* Cambia la fuente del texto */
+    margin: 20px; /* Añade un margen alrededor del contenido */
+}
+
+#mensajes {
+    border: 1px solid #ccc; /* Añade un borde alrededor del área de mensajes */
+    padding: 10px; /* Añade espacio dentro del borde */
+    margin-bottom: 10px; /* Añade un margen debajo del área de mensajes */
+    height: 200px; /* Establece una altura fija */
+    overflow-y: scroll; /* Permite hacer scroll si los mensajes exceden la altura */
+}
+
+input[type="text"] {
+    width: 70%; /* Establece el ancho del campo de entrada */
+    padding: 5px; /* Añade espacio dentro del campo de entrada */
+}
+
+button {
+    padding: 5px 10px; /* Añade espacio dentro del botón */
+}
